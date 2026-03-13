@@ -1,0 +1,86 @@
+/* Reset some defaults */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.jumbotron h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.jumbotron p {
+    font-size: 20px;
+}
+
+.jumbotron .btn {
+    background-color: white;
+    color: #007bff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* About Section */
+
+#about {
+    background-color: black;
+}
+
+.about {
+    padding: 60px 20px;
+    background-color: #f4f4f4 !important;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 36px;
+}
+
+.about p {
+    max-width: 700px;
+    margin: auto;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+ .myButton {
+  background-color: #007bff;
+}
+
+ .myButton2 {
+  background-color: #723d4c;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-pink {
+    background-color: pink;
+}
+
+.bg-green {
+    background-color: green;
+}
