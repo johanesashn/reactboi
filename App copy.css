@@ -1,83 +1,78 @@
-Reset some defaults
+/* General page styling */
 body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
     margin: 0;
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    padding: 0;
 }
 
-/* Jumbotron */
-.jumbotron {
-    background-color: #007bff;
-    color: white;
+/* Container styling */
+div {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
     text-align: center;
-    padding: 80px 20px;
 }
 
-.jumbotron h1 {
-    font-size: 50px;
-    margin-bottom: 10px;
+/* Heading */
+h1 {
+    margin-bottom: 20px;
+    color: #333;
 }
 
-.jumbotron p {
-    font-size: 20px;
-}
-
-.jumbotron .btn {
-    background-color: white;
-    color: #007bff;
+/* Button styling */
+button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
     padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 10px 0;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
 }
 
-/* About Section */
-
-
-.about {
-    padding: 60px 20px;
-    /* background-color: #f4f4f4 !important; */
-    text-align: center;
+button:hover {
+    background-color: #45a049;
 }
 
-.about h2 {
-    font-size: 36px;
+/* Input field */
+input {
+    padding: 10px;
+    width: 70%;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    font-size: 16px;
 }
 
-.about p {
-    max-width: 700px;
-    margin: auto;
+input:focus {
+    outline: none;
+    border-color: #4caf50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
 }
 
-/* Footer */
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 30px 20px;
+/* Todo list */
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    text-align: left;
 }
 
-footer a {
-    color: white;
-    margin: 0 10px;
-    text-decoration: none;
+li {
+    background-color: #f1f1f1;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: background-color 0.2s ease;
 }
 
- .myButton {
-  background-color: #007bff;
-}
-
- .myButton2 {
-  background-color: #723d4c;
-}
-
-.bg-black {
-    background-color: black;
-}
-
-.bg-pink {
-    background-color: pink;
-}
-
-.bg-green {
-    background-color: green;
+li:hover {
+    background-color: #e0e0e0;
 }
